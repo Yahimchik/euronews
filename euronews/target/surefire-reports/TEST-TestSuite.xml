@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="17" failures="6" name="TestSuite" time="204.267" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="18.0.2+9-61"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2\bin"/>
+    <property name="user.country.format" value="150"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\JavaProjects\euronews\euronews"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\JavaProjects\euronews\euronews"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="18.0.2+9-61"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Egor\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.8.6\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\apache-maven-3.8.6\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Egor\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Egor\AppData\Local\Programs\Python\Python311\;C:\Users\Egor\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.1\bin;;C:\Program Files\Docker Toolbox;C:\Users\Egor\.dotnet\tools;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.8.6/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="62.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.8.6\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Egor"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="18"/>
+    <property name="user.name" value="Egor"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.2"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language.format" value="en"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="18.0.2"/>
+    <property name="native.encoding" value="Cp1251"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp866"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.8.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp866"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="test.TestClass" name="languageTest" time="7.443"/>
+  <testcase classname="test.TestClass" name="languageTest" time="6.31"/>
+  <testcase classname="test.TestClass" name="languageTest" time="6.206"/>
+  <testcase classname="test.TestClass" name="languageTest" time="6.5"/>
+  <testcase classname="test.TestClass" name="languageTest" time="7.672"/>
+  <testcase classname="test.TestClass" name="languageTest" time="6.041"/>
+  <testcase classname="test.TestClass" name="languageTest" time="23.996">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //button[@id=&apos;didomi-notice-agree-button&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.95, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Egor\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59939}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59939/devtoo..., se:cdpVersion: 108.0.5359.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 66b9b506d22ef9302eb372e1db99ad10" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //button[@id=&apos;didomi-notice-agree-button&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.95, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Egor\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59939}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59939/devtoo..., se:cdpVersion: 108.0.5359.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 66b9b506d22ef9302eb372e1db99ad10
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at waits.Wait.waitForVisibleOfElementBy(Wait.java:25)
+	at elements.Element.click(Element.java:57)
+	at pages.forms.AgreeForm.clickAgreeButton(AgreeForm.java:19)
+	at test.TestClass.languageTest(TestClass.java:19)
+</failure>
+    <system-out>2022-12-07 14:07:02 INFO - Agree form is opened
+2022-12-07 14:07:02 INFO - Click Agree button
+2022-12-07 14:07:02 INFO - Main page is opened
+2022-12-07 14:07:02 INFO - Click Languages button
+2022-12-07 14:07:02 INFO - Click Language button
+2022-12-07 14:07:05 INFO - Click Agree button
+</system-out>
+    <system-err>Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 26376
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 07, 2022 2:06:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: 107
+</system-err>
+  </testcase>
+  <testcase classname="test.TestClass" name="languageTest" time="5.747"/>
+  <testcase classname="test.TestClass" name="languageTest" time="5.881"/>
+  <testcase classname="test.TestClass" name="languageTest" time="6.084"/>
+  <testcase classname="test.TestClass" name="languageTest" time="11.148"/>
+  <testcase classname="test.TestClass" name="languageTest" time="8.083"/>
+  <testcase classname="test.TestClass" name="languageTest" time="20.722">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //button[@id=&apos;didomi-notice-agree-button&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.95, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Egor\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60426}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60426/devtoo..., se:cdpVersion: 108.0.5359.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b9ae31df85954eea934104681137789a" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //button[@id=&apos;didomi-notice-agree-button&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.95, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Egor\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60426}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60426/devtoo..., se:cdpVersion: 108.0.5359.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b9ae31df85954eea934104681137789a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at waits.Wait.waitForVisibleOfElementBy(Wait.java:25)
+	at elements.Element.click(Element.java:57)
+	at pages.forms.AgreeForm.clickAgreeButton(AgreeForm.java:19)
+	at test.TestClass.languageTest(TestClass.java:19)
+</failure>
+    <system-out>2022-12-07 14:08:39 INFO - Agree form is opened
+2022-12-07 14:08:39 INFO - Click Agree button
+2022-12-07 14:08:39 INFO - Main page is opened
+2022-12-07 14:08:39 INFO - Click Languages button
+2022-12-07 14:08:39 INFO - Click Language button
+2022-12-07 14:08:39 INFO - Click Agree button
+</system-out>
+    <system-err>Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 14095
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 07, 2022 2:08:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: 107
+</system-err>
+  </testcase>
+  <testcase classname="test.TestClass" name="languageTest" time="20.272">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //button[@id=&apos;didomi-notice-agree-button&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.95, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Egor\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60575}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60575/devtoo..., se:cdpVersion: 108.0.5359.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 02805dc96f7025a4e97a28a45d89ebc4" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //button[@id=&apos;didomi-notice-agree-button&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.95, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Egor\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60575}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60575/devtoo..., se:cdpVersion: 108.0.5359.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 02805dc96f7025a4e97a28a45d89ebc4
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at waits.Wait.waitForVisibleOfElementBy(Wait.java:25)
+	at elements.Element.click(Element.java:57)
+	at pages.forms.AgreeForm.clickAgreeButton(AgreeForm.java:19)
+	at test.TestClass.languageTest(TestClass.java:19)
+</failure>
+    <system-out>2022-12-07 14:09:05 INFO - Agree form is opened
+2022-12-07 14:09:05 INFO - Click Agree button
+2022-12-07 14:09:05 INFO - Main page is opened
+2022-12-07 14:09:05 INFO - Click Languages button
+2022-12-07 14:09:05 INFO - Click Language button
+2022-12-07 14:09:05 INFO - Click Agree button
+</system-out>
+    <system-err>Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 30678
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 07, 2022 2:09:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: 107
+</system-err>
+  </testcase>
+  <testcase classname="test.TestClass" name="languageTest" time="20.733">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //button[@id=&apos;didomi-notice-agree-button&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.95, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Egor\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60658}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60658/devtoo..., se:cdpVersion: 108.0.5359.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 82921c44a4ee740e619494d2adf93b2f" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //button[@id=&apos;didomi-notice-agree-button&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.95, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Egor\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60658}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60658/devtoo..., se:cdpVersion: 108.0.5359.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 82921c44a4ee740e619494d2adf93b2f
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at waits.Wait.waitForVisibleOfElementBy(Wait.java:25)
+	at elements.Element.click(Element.java:57)
+	at pages.forms.AgreeForm.clickAgreeButton(AgreeForm.java:19)
+	at test.TestClass.languageTest(TestClass.java:19)
+</failure>
+    <system-out>2022-12-07 14:09:30 INFO - Agree form is opened
+2022-12-07 14:09:30 INFO - Click Agree button
+2022-12-07 14:09:30 INFO - Main page is opened
+2022-12-07 14:09:30 INFO - Click Languages button
+2022-12-07 14:09:30 INFO - Click Language button
+2022-12-07 14:09:31 INFO - Click Agree button
+</system-out>
+    <system-err>Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 34346
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 07, 2022 2:09:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: 107
+</system-err>
+  </testcase>
+  <testcase classname="test.TestClass" name="languageTest" time="20.719">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //button[@id=&apos;didomi-notice-agree-button&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.95, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Egor\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60745}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60745/devtoo..., se:cdpVersion: 108.0.5359.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2a404083ac18dccc5109bfe67539f9c5" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //button[@id=&apos;didomi-notice-agree-button&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.95, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Egor\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60745}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60745/devtoo..., se:cdpVersion: 108.0.5359.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2a404083ac18dccc5109bfe67539f9c5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at waits.Wait.waitForVisibleOfElementBy(Wait.java:25)
+	at elements.Element.click(Element.java:57)
+	at pages.forms.AgreeForm.clickAgreeButton(AgreeForm.java:19)
+	at test.TestClass.languageTest(TestClass.java:19)
+</failure>
+    <system-out>2022-12-07 14:09:57 INFO - Agree form is opened
+2022-12-07 14:09:57 INFO - Click Agree button
+2022-12-07 14:09:57 INFO - Main page is opened
+2022-12-07 14:09:57 INFO - Click Languages button
+2022-12-07 14:09:57 INFO - Click Language button
+2022-12-07 14:09:57 INFO - Click Agree button
+</system-out>
+    <system-err>Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 18110
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 07, 2022 2:09:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: 107
+</system-err>
+  </testcase>
+  <testcase classname="test.TestClass" name="languageTest" time="20.71">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //button[@id=&apos;didomi-notice-agree-button&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.95, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Egor\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60829}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60829/devtoo..., se:cdpVersion: 108.0.5359.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7de95c44f7fdf140a180e1439d5ea7cd" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //button[@id=&apos;didomi-notice-agree-button&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.95, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Egor\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60829}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60829/devtoo..., se:cdpVersion: 108.0.5359.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7de95c44f7fdf140a180e1439d5ea7cd
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at waits.Wait.waitForVisibleOfElementBy(Wait.java:25)
+	at elements.Element.click(Element.java:57)
+	at pages.forms.AgreeForm.clickAgreeButton(AgreeForm.java:19)
+	at test.TestClass.languageTest(TestClass.java:19)
+</failure>
+    <system-out>2022-12-07 14:10:27 INFO - Agree form is opened
+2022-12-07 14:10:27 INFO - Click Agree button
+2022-12-07 14:10:27 INFO - Main page is opened
+2022-12-07 14:10:27 INFO - Click Languages button
+2022-12-07 14:10:27 INFO - Click Language button
+2022-12-07 14:10:27 INFO - Click Agree button
+</system-out>
+    <system-err>Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 6100
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 07, 2022 2:10:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: 107
+</system-err>
+  </testcase>
+</testsuite>

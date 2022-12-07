@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Command line suite" verbose="0">
+    <test thread-count="5" name="Command line test" verbose="0" parallel="classes">
+        <classes>
+            <class name="test.BaseTest"/>
+            <class name="test.TestClass"/>
+            <class name="utils.TestConfigManager"/>
+        </classes>
+    </test> <!-- Command line test -->
+</suite> <!-- Command line suite -->
