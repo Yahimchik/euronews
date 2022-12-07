@@ -1,8 +1,0 @@
-{
-  "url": "https://ru.euronews.com/",
-  "browser": "chrome",
-  "timeOut": 20,
-  "maximized": true,
-  "language": "en",
-  "incognito": true
-}
